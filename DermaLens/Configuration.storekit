@@ -1,0 +1,76 @@
+{
+  "identifier": "B43F86A7-72F6-4C64-A07C-C82725F4C7D0",
+  "nonConsumables": [],
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_applicationInternalID": "",
+    "_developerTeamID": "",
+    "_failTransactionsEnabled": false,
+    "_lastSynchronizedDate": 0,
+    "_locale": "en_US",
+    "_storefront": "USA",
+    "_storeKitErrorRate": 0
+  },
+  "subscriptionGroups": [
+    {
+      "id": "8E7A8E2A-7BC2-4D38-9C3F-51E1B95B2F58",
+      "localizations": [
+        {
+          "description": "Premium cosmetic skincare guidance, routine support, and expanded recommendation features.",
+          "displayName": "DermaLens Premium",
+          "locale": "en_US"
+        }
+      ],
+      "name": "DermaLens Premium - Draft",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "4.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "9C9395D0-9C34-452B-B142-7E32E969A53B",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Monthly access to DermaLens Premium cosmetic skincare features.",
+              "displayName": "DermaLens Premium Monthly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "dermalens.premium.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "DermaLens Premium Monthly - Draft",
+          "subscriptionGroupID": "8E7A8E2A-7BC2-4D38-9C3F-51E1B95B2F58",
+          "type": "RecurringSubscription"
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "39.99",
+          "familyShareable": false,
+          "groupNumber": 2,
+          "internalID": "4143B30C-5921-4A95-8772-5E4470061D7F",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Yearly access to DermaLens Premium cosmetic skincare features.",
+              "displayName": "DermaLens Premium Yearly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "dermalens.premium.yearly",
+          "recurringSubscriptionPeriod": "P1Y",
+          "referenceName": "DermaLens Premium Yearly - Draft",
+          "subscriptionGroupID": "8E7A8E2A-7BC2-4D38-9C3F-51E1B95B2F58",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

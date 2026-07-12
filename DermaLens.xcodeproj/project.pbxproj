@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00000000000000000000B001 /* DermaLensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A001 /* DermaLensApp.swift */; };
+		00000000000000000000B002 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A002 /* AppState.swift */; };
+		00000000000000000000B003 /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A003 /* AppRootView.swift */; };
+		00000000000000000000B004 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A004 /* Models.swift */; };
+		00000000000000000000B005 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A005 /* SampleData.swift */; };
+		00000000000000000000B006 /* RecommendationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A006 /* RecommendationEngine.swift */; };
+		00000000000000000000B007 /* ScanAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A007 /* ScanAnalyzer.swift */; };
+		00000000000000000000B008 /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A008 /* SubscriptionManager.swift */; };
+		00000000000000000000B009 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A009 /* Theme.swift */; };
+		00000000000000000000B010 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A010 /* Components.swift */; };
+		00000000000000000000B011 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A011 /* HomeView.swift */; };
+		00000000000000000000B012 /* GuidedScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A012 /* GuidedScanView.swift */; };
+		00000000000000000000B013 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A013 /* CameraPreview.swift */; };
+		00000000000000000000B014 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A014 /* ResultsView.swift */; };
+		00000000000000000000B015 /* RoutineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A015 /* RoutineView.swift */; };
+		00000000000000000000B016 /* ShelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A016 /* ShelfView.swift */; };
+		00000000000000000000B017 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A017 /* PaywallView.swift */; };
+		00000000000000000000B018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A018 /* Assets.xcassets */; };
+		00000000000000000000B019 /* PrivacyLockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A019 /* PrivacyLockManager.swift */; };
+		00000000000000000000B020 /* PrivacyLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A020 /* PrivacyLockView.swift */; };
+		00000000000000000000B021 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A021 /* OnboardingView.swift */; };
+		00000000000000000000B022 /* PersistenceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A022 /* PersistenceStore.swift */; };
+		00000000000000000000B023 /* PrivacyCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A023 /* PrivacyCenterView.swift */; };
+		00000000000000000000B024 /* RemoteSkinAnalysisClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A025 /* RemoteSkinAnalysisClient.swift */; };
+		00000000000000000000B025 /* ScanQualityEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A026 /* ScanQualityEstimator.swift */; };
+		00000000000000000000B026 /* DiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A027 /* DiagnosticsView.swift */; };
+		00000000000000000000B027 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A028 /* AppConfiguration.swift */; };
+		00000000000000000000B028 /* IngredientCompatibilityEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A029 /* IngredientCompatibilityEngine.swift */; };
+		00000000000000000000B029 /* RoutineReminderPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A030 /* RoutineReminderPlanner.swift */; };
+		00000000000000000000B030 /* RoutineNotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A031 /* RoutineNotificationScheduler.swift */; };
+		00000000000000000000B031 /* RoutineAdherenceTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A032 /* RoutineAdherenceTracker.swift */; };
+		00000000000000000000B032 /* ProductShelfManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A033 /* ProductShelfManager.swift */; };
+		00000000000000000000B033 /* ProgressJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A034 /* ProgressJournal.swift */; };
+		00000000000000000000B034 /* PrivacyExportBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A035 /* PrivacyExportBuilder.swift */; };
+		00000000000000000000B035 /* PremiumAccessPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A036 /* PremiumAccessPolicy.swift */; };
+		00000000000000000000B036 /* LegalDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A037 /* LegalDocumentView.swift */; };
+		00000000000000000000B037 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A038 /* PrivacyInfo.xcprivacy */; };
+		00000000000000000000B201 /* DermaLensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A201 /* DermaLensUITests.swift */; };
+		00000000000000000000B101 /* RecommendationEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A101 /* RecommendationEngineTests.swift */; };
+		00000000000000000000B102 /* PersistenceStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A102 /* PersistenceStoreTests.swift */; };
+		00000000000000000000B103 /* RemoteSkinAnalysisClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A103 /* RemoteSkinAnalysisClientTests.swift */; };
+		00000000000000000000B104 /* ScanQualityEstimatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A104 /* ScanQualityEstimatorTests.swift */; };
+		00000000000000000000B105 /* AppConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A105 /* AppConfigurationTests.swift */; };
+		00000000000000000000B106 /* IngredientCompatibilityEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A106 /* IngredientCompatibilityEngineTests.swift */; };
+		00000000000000000000B107 /* RoutineReminderPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A107 /* RoutineReminderPlannerTests.swift */; };
+		00000000000000000000B108 /* RoutineAdherenceTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A108 /* RoutineAdherenceTrackerTests.swift */; };
+		00000000000000000000B109 /* ProductShelfManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A109 /* ProductShelfManagerTests.swift */; };
+		00000000000000000000B110 /* ProgressJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A110 /* ProgressJournalTests.swift */; };
+		00000000000000000000B111 /* PrivacyExportBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A111 /* PrivacyExportBuilderTests.swift */; };
+		00000000000000000000B112 /* PremiumAccessPolicyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A112 /* PremiumAccessPolicyTests.swift */; };
+		00000000000000000000B113 /* SubscriptionManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A113 /* SubscriptionManagerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00000000000000000000D006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000000000005;
+			remoteInfo = DermaLens;
+		};
+		00000000000000000000E006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000000000005;
+			remoteInfo = DermaLens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000004 /* DermaLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DermaLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00000000000000000000D001 /* DermaLensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DermaLensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00000000000000000000E001 /* DermaLensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DermaLensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00000000000000000000A001 /* DermaLensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/DermaLensApp.swift; sourceTree = "<group>"; };
+		00000000000000000000A002 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppState.swift; sourceTree = "<group>"; };
+		00000000000000000000A003 /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/AppRootView.swift; sourceTree = "<group>"; };
+		00000000000000000000A004 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Models.swift; sourceTree = "<group>"; };
+		00000000000000000000A005 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/SampleData.swift; sourceTree = "<group>"; };
+		00000000000000000000A006 /* RecommendationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/RecommendationEngine.swift; sourceTree = "<group>"; };
+		00000000000000000000A007 /* ScanAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/ScanAnalyzer.swift; sourceTree = "<group>"; };
+		00000000000000000000A008 /* SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/SubscriptionManager.swift; sourceTree = "<group>"; };
+		00000000000000000000A009 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design/Theme.swift; sourceTree = "<group>"; };
+		00000000000000000000A010 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design/Components.swift; sourceTree = "<group>"; };
+		00000000000000000000A011 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/HomeView.swift; sourceTree = "<group>"; };
+		00000000000000000000A012 /* GuidedScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Scan/GuidedScanView.swift; sourceTree = "<group>"; };
+		00000000000000000000A013 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Scan/CameraPreview.swift; sourceTree = "<group>"; };
+		00000000000000000000A014 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Results/ResultsView.swift; sourceTree = "<group>"; };
+		00000000000000000000A015 /* RoutineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Routine/RoutineView.swift; sourceTree = "<group>"; };
+		00000000000000000000A016 /* ShelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Shelf/ShelfView.swift; sourceTree = "<group>"; };
+		00000000000000000000A017 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Paywall/PaywallView.swift; sourceTree = "<group>"; };
+		00000000000000000000A018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00000000000000000000A019 /* PrivacyLockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/PrivacyLockManager.swift; sourceTree = "<group>"; };
+		00000000000000000000A020 /* PrivacyLockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/PrivacyLockView.swift; sourceTree = "<group>"; };
+		00000000000000000000A021 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/OnboardingView.swift; sourceTree = "<group>"; };
+		00000000000000000000A022 /* PersistenceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/PersistenceStore.swift; sourceTree = "<group>"; };
+		00000000000000000000A023 /* PrivacyCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/PrivacyCenterView.swift; sourceTree = "<group>"; };
+		00000000000000000000A024 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Configuration.storekit; sourceTree = "<group>"; };
+		00000000000000000000A025 /* RemoteSkinAnalysisClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/RemoteSkinAnalysisClient.swift; sourceTree = "<group>"; };
+		00000000000000000000A026 /* ScanQualityEstimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/ScanQualityEstimator.swift; sourceTree = "<group>"; };
+		00000000000000000000A027 /* DiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/DiagnosticsView.swift; sourceTree = "<group>"; };
+		00000000000000000000A028 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppConfiguration.swift; sourceTree = "<group>"; };
+		00000000000000000000A029 /* IngredientCompatibilityEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/IngredientCompatibilityEngine.swift; sourceTree = "<group>"; };
+		00000000000000000000A030 /* RoutineReminderPlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/RoutineReminderPlanner.swift; sourceTree = "<group>"; };
+		00000000000000000000A031 /* RoutineNotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/RoutineNotificationScheduler.swift; sourceTree = "<group>"; };
+		00000000000000000000A032 /* RoutineAdherenceTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/RoutineAdherenceTracker.swift; sourceTree = "<group>"; };
+		00000000000000000000A033 /* ProductShelfManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/ProductShelfManager.swift; sourceTree = "<group>"; };
+		00000000000000000000A034 /* ProgressJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/ProgressJournal.swift; sourceTree = "<group>"; };
+		00000000000000000000A035 /* PrivacyExportBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/PrivacyExportBuilder.swift; sourceTree = "<group>"; };
+		00000000000000000000A036 /* PremiumAccessPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/PremiumAccessPolicy.swift; sourceTree = "<group>"; };
+		00000000000000000000A037 /* LegalDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/LegalDocumentView.swift; sourceTree = "<group>"; };
+		00000000000000000000A038 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		00000000000000000000A201 /* DermaLensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DermaLensUITests.swift; sourceTree = "<group>"; };
+		00000000000000000000A101 /* RecommendationEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationEngineTests.swift; sourceTree = "<group>"; };
+		00000000000000000000A102 /* PersistenceStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceStoreTests.swift; sourceTree = "<group>"; };
+		00000000000000000000A103 /* RemoteSkinAnalysisClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteSkinAnalysisClientTests.swift; sourceTree = "<group>"; };
+		00000000000000000000A104 /* ScanQualityEstimatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQualityEstimatorTests.swift; sourceTree = "<group>"; };
+		00000000000000000000A105 /* AppConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurationTests.swift; sourceTree = "<group>"; };
+		00000000000000000000A106 /* IngredientCompatibilityEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCompatibilityEngineTests.swift; sourceTree = "<group>"; };
+		00000000000000000000A107 /* RoutineReminderPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineReminderPlannerTests.swift; sourceTree = "<group>"; };
+		00000000000000000000A108 /* RoutineAdherenceTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineAdherenceTrackerTests.swift; sourceTree = "<group>"; };
+		00000000000000000000A109 /* ProductShelfManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductShelfManagerTests.swift; sourceTree = "<group>"; };
+		00000000000000000000A110 /* ProgressJournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressJournalTests.swift; sourceTree = "<group>"; };
+		00000000000000000000A111 /* PrivacyExportBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyExportBuilderTests.swift; sourceTree = "<group>"; };
+		00000000000000000000A112 /* PremiumAccessPolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumAccessPolicyTests.swift; sourceTree = "<group>"; };
+		00000000000000000000A113 /* SubscriptionManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionManagerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000000000008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000D003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000E003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000C001 /* DermaLens */,
+				00000000000000000000C101 /* DermaLensTests */,
+				00000000000000000000C201 /* DermaLensUITests */,
+				000000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000004 /* DermaLens.app */,
+				00000000000000000000D001 /* DermaLensTests.xctest */,
+				00000000000000000000E001 /* DermaLensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00000000000000000000C001 /* DermaLens */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000C002 /* App */,
+				00000000000000000000C003 /* Core */,
+				00000000000000000000C004 /* Design */,
+				00000000000000000000C005 /* Features */,
+				00000000000000000000A018 /* Assets.xcassets */,
+				00000000000000000000A024 /* Configuration.storekit */,
+				00000000000000000000A038 /* PrivacyInfo.xcprivacy */,
+			);
+			path = DermaLens;
+			sourceTree = "<group>";
+		};
+		00000000000000000000C002 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000A001 /* DermaLensApp.swift */,
+				00000000000000000000A002 /* AppState.swift */,
+				00000000000000000000A028 /* AppConfiguration.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		00000000000000000000C003 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000A004 /* Models.swift */,
+				00000000000000000000A005 /* SampleData.swift */,
+				00000000000000000000A006 /* RecommendationEngine.swift */,
+				00000000000000000000A007 /* ScanAnalyzer.swift */,
+				00000000000000000000A008 /* SubscriptionManager.swift */,
+				00000000000000000000A019 /* PrivacyLockManager.swift */,
+				00000000000000000000A022 /* PersistenceStore.swift */,
+				00000000000000000000A025 /* RemoteSkinAnalysisClient.swift */,
+				00000000000000000000A026 /* ScanQualityEstimator.swift */,
+				00000000000000000000A029 /* IngredientCompatibilityEngine.swift */,
+				00000000000000000000A030 /* RoutineReminderPlanner.swift */,
+				00000000000000000000A031 /* RoutineNotificationScheduler.swift */,
+				00000000000000000000A032 /* RoutineAdherenceTracker.swift */,
+				00000000000000000000A033 /* ProductShelfManager.swift */,
+				00000000000000000000A034 /* ProgressJournal.swift */,
+				00000000000000000000A035 /* PrivacyExportBuilder.swift */,
+				00000000000000000000A036 /* PremiumAccessPolicy.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		00000000000000000000C004 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000A009 /* Theme.swift */,
+				00000000000000000000A010 /* Components.swift */,
+			);
+			name = Design;
+			sourceTree = "<group>";
+		};
+		00000000000000000000C005 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000A003 /* AppRootView.swift */,
+				00000000000000000000A020 /* PrivacyLockView.swift */,
+				00000000000000000000A021 /* OnboardingView.swift */,
+				00000000000000000000A023 /* PrivacyCenterView.swift */,
+				00000000000000000000A037 /* LegalDocumentView.swift */,
+				00000000000000000000A027 /* DiagnosticsView.swift */,
+				00000000000000000000C006 /* Home */,
+				00000000000000000000C007 /* Scan */,
+				00000000000000000000C008 /* Results */,
+				00000000000000000000C009 /* Routine */,
+				00000000000000000000C010 /* Shelf */,
+				00000000000000000000C011 /* Paywall */,
+			);
+			name = Features;
+			sourceTree = "<group>";
+		};
+		00000000000000000000C006 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000A011 /* HomeView.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		00000000000000000000C007 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000A012 /* GuidedScanView.swift */,
+				00000000000000000000A013 /* CameraPreview.swift */,
+			);
+			name = Scan;
+			sourceTree = "<group>";
+		};
+		00000000000000000000C008 /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000A014 /* ResultsView.swift */,
+			);
+			name = Results;
+			sourceTree = "<group>";
+		};
+		00000000000000000000C009 /* Routine */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000A015 /* RoutineView.swift */,
+			);
+			name = Routine;
+			sourceTree = "<group>";
+		};
+		00000000000000000000C010 /* Shelf */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000A016 /* ShelfView.swift */,
+			);
+			name = Shelf;
+			sourceTree = "<group>";
+		};
+		00000000000000000000C011 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000A017 /* PaywallView.swift */,
+			);
+			name = Paywall;
+			sourceTree = "<group>";
+		};
+		00000000000000000000C101 /* DermaLensTests */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000A101 /* RecommendationEngineTests.swift */,
+				00000000000000000000A102 /* PersistenceStoreTests.swift */,
+				00000000000000000000A103 /* RemoteSkinAnalysisClientTests.swift */,
+				00000000000000000000A104 /* ScanQualityEstimatorTests.swift */,
+				00000000000000000000A105 /* AppConfigurationTests.swift */,
+				00000000000000000000A106 /* IngredientCompatibilityEngineTests.swift */,
+				00000000000000000000A107 /* RoutineReminderPlannerTests.swift */,
+				00000000000000000000A108 /* RoutineAdherenceTrackerTests.swift */,
+				00000000000000000000A109 /* ProductShelfManagerTests.swift */,
+				00000000000000000000A110 /* ProgressJournalTests.swift */,
+				00000000000000000000A111 /* PrivacyExportBuilderTests.swift */,
+				00000000000000000000A112 /* PremiumAccessPolicyTests.swift */,
+				00000000000000000000A113 /* SubscriptionManagerTests.swift */,
+			);
+			path = DermaLensTests;
+			sourceTree = "<group>";
+		};
+		00000000000000000000C201 /* DermaLensUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000A201 /* DermaLensUITests.swift */,
+			);
+			path = DermaLensUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000005 /* DermaLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000014 /* Build configuration list for PBXNativeTarget "DermaLens" */;
+			buildPhases = (
+				000000000000000000000006 /* Sources */,
+				000000000000000000000008 /* Frameworks */,
+				000000000000000000000007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DermaLens;
+			productName = DermaLens;
+			productReference = 000000000000000000000004 /* DermaLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00000000000000000000D002 /* DermaLensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000000000000000D012 /* Build configuration list for PBXNativeTarget "DermaLensTests" */;
+			buildPhases = (
+				00000000000000000000D004 /* Sources */,
+				00000000000000000000D003 /* Frameworks */,
+				00000000000000000000D005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00000000000000000000D007 /* PBXTargetDependency */,
+			);
+			name = DermaLensTests;
+			productName = DermaLensTests;
+			productReference = 00000000000000000000D001 /* DermaLensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00000000000000000000E002 /* DermaLensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000000000000000E012 /* Build configuration list for PBXNativeTarget "DermaLensUITests" */;
+			buildPhases = (
+				00000000000000000000E004 /* Sources */,
+				00000000000000000000E003 /* Frameworks */,
+				00000000000000000000E005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00000000000000000000E007 /* PBXTargetDependency */,
+			);
+			name = DermaLensUITests;
+			productName = DermaLensUITests;
+			productReference = 00000000000000000000E001 /* DermaLensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					000000000000000000000005 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					00000000000000000000D002 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 000000000000000000000005;
+					};
+					00000000000000000000E002 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 000000000000000000000005;
+					};
+				};
+			};
+			buildConfigurationList = 000000000000000000000011 /* Build configuration list for PBXProject "DermaLens" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000002;
+			productRefGroup = 000000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000005 /* DermaLens */,
+				00000000000000000000D002 /* DermaLensTests */,
+				00000000000000000000E002 /* DermaLensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000000000000000007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000000000000000B018 /* Assets.xcassets in Resources */,
+				00000000000000000000B037 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000D005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000E005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000000000000000B001 /* DermaLensApp.swift in Sources */,
+				00000000000000000000B002 /* AppState.swift in Sources */,
+				00000000000000000000B003 /* AppRootView.swift in Sources */,
+				00000000000000000000B004 /* Models.swift in Sources */,
+				00000000000000000000B005 /* SampleData.swift in Sources */,
+				00000000000000000000B006 /* RecommendationEngine.swift in Sources */,
+				00000000000000000000B007 /* ScanAnalyzer.swift in Sources */,
+				00000000000000000000B008 /* SubscriptionManager.swift in Sources */,
+				00000000000000000000B009 /* Theme.swift in Sources */,
+				00000000000000000000B010 /* Components.swift in Sources */,
+				00000000000000000000B011 /* HomeView.swift in Sources */,
+				00000000000000000000B012 /* GuidedScanView.swift in Sources */,
+				00000000000000000000B013 /* CameraPreview.swift in Sources */,
+				00000000000000000000B014 /* ResultsView.swift in Sources */,
+				00000000000000000000B015 /* RoutineView.swift in Sources */,
+				00000000000000000000B016 /* ShelfView.swift in Sources */,
+				00000000000000000000B017 /* PaywallView.swift in Sources */,
+				00000000000000000000B019 /* PrivacyLockManager.swift in Sources */,
+				00000000000000000000B020 /* PrivacyLockView.swift in Sources */,
+				00000000000000000000B021 /* OnboardingView.swift in Sources */,
+				00000000000000000000B022 /* PersistenceStore.swift in Sources */,
+				00000000000000000000B023 /* PrivacyCenterView.swift in Sources */,
+				00000000000000000000B024 /* RemoteSkinAnalysisClient.swift in Sources */,
+				00000000000000000000B025 /* ScanQualityEstimator.swift in Sources */,
+				00000000000000000000B026 /* DiagnosticsView.swift in Sources */,
+				00000000000000000000B027 /* AppConfiguration.swift in Sources */,
+				00000000000000000000B028 /* IngredientCompatibilityEngine.swift in Sources */,
+				00000000000000000000B029 /* RoutineReminderPlanner.swift in Sources */,
+				00000000000000000000B030 /* RoutineNotificationScheduler.swift in Sources */,
+				00000000000000000000B031 /* RoutineAdherenceTracker.swift in Sources */,
+				00000000000000000000B032 /* ProductShelfManager.swift in Sources */,
+				00000000000000000000B033 /* ProgressJournal.swift in Sources */,
+				00000000000000000000B034 /* PrivacyExportBuilder.swift in Sources */,
+				00000000000000000000B035 /* PremiumAccessPolicy.swift in Sources */,
+				00000000000000000000B036 /* LegalDocumentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000D004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000000000000000B101 /* RecommendationEngineTests.swift in Sources */,
+				00000000000000000000B102 /* PersistenceStoreTests.swift in Sources */,
+				00000000000000000000B103 /* RemoteSkinAnalysisClientTests.swift in Sources */,
+				00000000000000000000B104 /* ScanQualityEstimatorTests.swift in Sources */,
+				00000000000000000000B105 /* AppConfigurationTests.swift in Sources */,
+				00000000000000000000B106 /* IngredientCompatibilityEngineTests.swift in Sources */,
+				00000000000000000000B107 /* RoutineReminderPlannerTests.swift in Sources */,
+				00000000000000000000B108 /* RoutineAdherenceTrackerTests.swift in Sources */,
+				00000000000000000000B109 /* ProductShelfManagerTests.swift in Sources */,
+				00000000000000000000B110 /* ProgressJournalTests.swift in Sources */,
+				00000000000000000000B111 /* PrivacyExportBuilderTests.swift in Sources */,
+				00000000000000000000B112 /* PremiumAccessPolicyTests.swift in Sources */,
+				00000000000000000000B113 /* SubscriptionManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000E004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000000000000000B201 /* DermaLensUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00000000000000000000D007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000000000000000000000005 /* DermaLens */;
+			targetProxy = 00000000000000000000D006 /* PBXContainerItemProxy */;
+		};
+		00000000000000000000E007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000000000000000000000005 /* DermaLens */;
+			targetProxy = 00000000000000000000E006 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000000000000000000000012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			};
+			name = Debug;
+		};
+		000000000000000000000013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000000000000000000000015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DermaLens;
+				INFOPLIST_KEY_NSCameraUsageDescription = "DermaLens uses the camera to capture guided skin scans and assess image quality.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "DermaLens can use Face ID to protect private skin reports if you enable app lock.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranav.dermalens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000000000000000000000016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DermaLens;
+				INFOPLIST_KEY_NSCameraUsageDescription = "DermaLens uses the camera to capture guided skin scans and assess image quality.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "DermaLens can use Face ID to protect private skin reports if you enable app lock.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranav.dermalens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00000000000000000000D010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranav.dermalens.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DermaLens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DermaLens";
+			};
+			name = Debug;
+		};
+		00000000000000000000D011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranav.dermalens.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DermaLens.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DermaLens";
+			};
+			name = Release;
+		};
+		00000000000000000000E010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranav.dermalens.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DermaLens;
+			};
+			name = Debug;
+		};
+		00000000000000000000E011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pranav.dermalens.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DermaLens;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000000000011 /* Build configuration list for PBXProject "DermaLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000012 /* Debug */,
+				000000000000000000000013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000014 /* Build configuration list for PBXNativeTarget "DermaLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000015 /* Debug */,
+				000000000000000000000016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000000000000000D012 /* Build configuration list for PBXNativeTarget "DermaLensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000D010 /* Debug */,
+				00000000000000000000D011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000000000000000E012 /* Build configuration list for PBXNativeTarget "DermaLensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000E010 /* Debug */,
+				00000000000000000000E011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000001 /* Project object */;
+}
